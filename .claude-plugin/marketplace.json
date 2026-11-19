@@ -13,6 +13,11 @@
       "name": "git-pr-workflow",
       "source": "./plugins/git-pr-workflow",
       "description": "Conventional commits, short-lived branches and a four-section PR template, with a gate on every outward step: commit, push, PR, ticket and review replies happen only when you say so."
+    },
+    {
+      "name": "ios-qa-gate",
+      "source": "./plugins/ios-qa-gate",
+      "description": "A test-first QA gate for iOS changes: tests are written from the ticket's acceptance criteria, must fail before the fix and pass after, and every criterion is reported with its tests. Nothing is done until the gate is green."
     }
   ]
 }

@@ -1,0 +1,5 @@
+{
+  "name": "git-pr-workflow",
+  "description": "Conventional commits, short-lived branches and a four-section PR template, with a gate on every outward step: commit, push, PR, ticket and review replies happen only when you say so.",
+  "version": "1.0.0"
+}

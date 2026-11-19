@@ -8,6 +8,11 @@
       "name": "mobile-pr-review",
       "source": "./plugins/mobile-pr-review",
       "description": "Reviews a PR, branch or diff for iOS (Swift/UIKit) or Android (Kotlin/Compose) apps: spec pass against the ticket, rules pass against the repo's own rules files, platform risk checks, code smells and an over-engineering pass. Read-only, posts nothing unless told to."
+    },
+    {
+      "name": "git-pr-workflow",
+      "source": "./plugins/git-pr-workflow",
+      "description": "Conventional commits, short-lived branches and a four-section PR template, with a gate on every outward step: commit, push, PR, ticket and review replies happen only when you say so."
     }
   ]
 }

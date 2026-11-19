@@ -19,5 +19,6 @@ A [Claude Code](https://claude.com/claude-code) plugin marketplace: a collection
 | Plugin | Skill | Description |
 | --- | --- | --- |
 | [mobile-pr-review](./plugins/mobile-pr-review) | `mobile-pr-review` | Reviews a PR, branch or diff for iOS (Swift/UIKit/MVVM) or Android (Kotlin/Compose/MVI) apps. Runs two passes in parallel: a spec pass (what the ticket asked vs. what the PR does) and a rules pass (the repo's `CLAUDE.md` and other rules files). Adds repo-wide copy checks, platform risk checks, a test-quality check, a code smell pass and an over-engineering pass. Every finding needs proof. Read-only: posts inline PR comments only when you ask. |
+| [git-pr-workflow](./plugins/git-pr-workflow) | `git-pr-workflow` | Rules for turning finished work into a commit, push, PR, ticket and review replies: conventional commits (one line, plain words, no co-author trailer), explicit file staging, short-lived trunk-based branches, a four-section PR template (User-Facing Changes, Technical Changes, Feature Flags, Risks), and a gate on every outward step so nothing is committed, pushed or posted until you say so. |
 
 See [CLAUDE.md](./CLAUDE.md) for the conventions to follow when adding or updating a plugin/skill.
